@@ -40,7 +40,6 @@ class List extends Component {
 									return <tr key={task.id}>
 										<td className="col-md-10">{task.title}
 										{ 
-											if(task.priority=='Low')
 										
 										
 										task.priority == "Low" || task.priority == "Medium"
